@@ -1,0 +1,51 @@
+@import url(//fonts.googleapis.com/css?family=Coda:400|Raleway:300,400,600|Inconsolata);
+a {
+  color: #fff; }
+  a:hover {
+    color: #fff; }
+
+
+#header {
+  background-color: rgba(150, 60, 60, 0.9);
+  box-shadow: 0 0.05rem 1rem rgba(0, 0, 0, 0.15); }
+  #header.scrolled {
+    background-color: rgba(150, 60, 60, 0.9) !important;
+    }
+    #header.scrolled #navbar a {
+      color: #fff !important; }
+      #header.scrolled #navbar a:hover {
+        color: #fff!important; }
+    #header.scrolled #navbar a:before, #header.scrolled #navbar a:after {
+      background-color: #fff !important; }
+          /*Active dropdown nav item */
+          /* Dropdown CSS */
+          /* Active on Hover */ }
+          #header #navbar ul.navigation li a {
+            font-family: "Coda", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+            }
+            #header #navbar ul.navigation li a:before, #header #navbar ul.navigation li a:after {
+              background-color: #fff;
+            }
+            /* Active Dropdown nav item */ 
+            #header #navbar ul.navigation li ul li.active > a {
+              color: #963c3c; }
+            #header #navbar ul.navigation li ul li:hover > a {
+              background-color: #963c3c;
+              }
+.header-image #body .flush-top {
+  padding-top: 19rem; }
+  .header-image #header .navigation .has-children:hover a {
+    color: #963c3c; }
+    background-color: rgba(255, 255, 255, 0.7) !important; }
+
+html, body, button, input, select, textarea, .pure-g, .pure-g [class*="pure-u"] {
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Coda", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0px; }
+
+.label {
+  font-family: "Coda", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  }
+

@@ -1,0 +1,65 @@
+@import url(//fonts.googleapis.com/css?family=Coda:400|Raleway:300,400,600|Inconsolata);
+.add-padd {
+  padding: 0 2rem; }
+
+/*# sourceMappingURL=custom.css.map */
+a {
+  color: #fff; }
+
+a:hover {
+  color: #fff; }
+
+#header {
+  background-color: rgba(150, 60, 60, 0.9);
+  box-shadow: 0 0.05rem 1rem rgba(0, 0, 0, 0.15); }
+
+#header.scrolled {
+  background-color: rgba(150, 60, 60, 0.9) !important;
+  box-shadow: 0 0.05rem 1rem rgba(0, 0, 0, 0.15) !important;
+  height: 3.5rem; }
+
+#header.scrolled #navbar a {
+  color: #fff !important; }
+
+#header.scrolled #navbar a:hover {
+  color: #fff !important; }
+
+#header.scrolled #navbar a:before, #header.scrolled #navbar a:after {
+  background-color: #fff !important; }
+
+/*Active dropdown nav item */
+/* Dropdown CSS */
+/* Active on Hover */
+#header #navbar ul.navigation li a {
+  font-family: "Coda", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; }
+
+#header #navbar ul.navigation li a:before, #header #navbar ul.navigation li a:after {
+  background-color: #fff; }
+
+/* Active Dropdown nav item */
+#header #navbar ul.navigation li ul li.active > a {
+  color: #963c3c; }
+
+#header #navbar ul.navigation li ul li:hover > a {
+  background-color: #963c3c; }
+
+#header #navbar {
+  font-size: 1.2rem; }
+
+.header-image #body .flush-top {
+  padding-top: 19rem; }
+
+.header-image #header .navigation .has-children:hover a {
+  color: #963c3c; }
+
+.header-image #header a:before, .header-image #header a:after {
+  background-color: rgba(255, 255, 255, 0.7) !important; }
+
+html h1, html h2, html h3, html h4, html h5, html h6, body h1, body h2, body h3, body h4, body h5, body h6, button h1, button h2, button h3, button h4, button h5, button h6, input h1, input h2, input h3, input h4, input h5, input h6, select h1, select h2, select h3, select h4, select h5, select h6, textarea h1, textarea h2, textarea h3, textarea h4, textarea h5, textarea h6, .pure-g h1, .pure-g h2, .pure-g h3, .pure-g h4, .pure-g h5, .pure-g h6, .pure-g [class*="pure-u"] h1, .pure-g [class*="pure-u"] h2, .pure-g [class*="pure-u"] h3, .pure-g [class*="pure-u"] h4, .pure-g [class*="pure-u"] h5, .pure-g [class*="pure-u"] h6 {
+  font-family: "Coda", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif;
+  font-weight: 700;
+  letter-spacing: -0px; }
+html .label, body .label, button .label, input .label, select .label, textarea .label, .pure-g .label, .pure-g [class*="pure-u"] .label {
+  font-family: "Coda", "Helvetica", "Tahoma", "Geneva", "Arial", sans-serif; }
+
+/*# sourceMappingURL=custom.css.map */

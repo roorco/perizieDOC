@@ -1,0 +1,11 @@
+email: ro.orco@gmail.com
+fullname: Orobor
+title: Administrator
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$i/.X4fv2NUBWfCfG/Ip4zuc.x4LjnWeGTYgr6t809T9oXZhmQeEZe
