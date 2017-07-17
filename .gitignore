@@ -1,0 +1,9 @@
+# Grav Specific
+.sass-cache
+composer.lock
+cache/*
+assets/*
+logs/*
+images/*
+user/data/*
+config/security.yaml
